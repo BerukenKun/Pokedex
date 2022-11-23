@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="icon/pokeball-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/script.js"></script>
+
+    <title>Pokedex</title>
+</head>
+<body>
+    
+    <!--<h1>Pokedex - First Generation</h1>-->
+
+    <Main>
+
+        <img src="img/pokedex.png" alt="pokedex" class=pokedex">
+
+        <img src="#" alt="pokemon" class="pokemon__image">
+        
+        <div class="button__shiny">
+            <img src="img/shiny.png" class="shiny">
+        </div>
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <h1 class="type">
+            <span>Type - </span>
+            <span class="pokemon__type"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input__search" placeholder="Name or Number" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">&lt; Prev</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+    </Main>
+
+</body>
+</html>
